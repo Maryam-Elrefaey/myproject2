@@ -1,0 +1,104 @@
+/* Global Styles */
+body {
+    background-color: #0d0d0d;
+    color: #e6e6e6;
+    font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    line-height: 1.8;
+}
+
+/* Container for main content */
+.content {
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+}
+
+/* Navigation Bar */
+nav {
+    background: linear-gradient(90deg, #1f1f1f, #292929);
+    padding: 15px;
+    border-bottom: 2px solid #bb86fc;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+nav a {
+    color: #bb86fc;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s, transform 0.2s;
+}
+
+nav a:hover {
+    color: #03dac6;
+    transform: scale(1.1);
+}
+
+/* Headings */
+h1 {
+    color: #bb86fc;
+    font-size: 36px;
+    margin: 20px 0;
+}
+
+h2 {
+    color: #03dac6;
+    font-size: 28px;
+    margin: 15px 0;
+}
+
+/* Paragraphs */
+p {
+    font-size: 18px;
+    color: #e6e6e6;
+    margin: 10px 0;
+}
+
+/* Profile Image */
+.dark {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 3px solid #03dac6;
+    object-fit: cover;
+    margin-top: 20px;
+    box-shadow: 0 0 20px rgba(3, 218, 198, 0.5);
+}
+
+/* Lists (Hobbies) */
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+}
+
+ul li {
+    background: #1a1a1a;
+    margin: 10px auto;
+    padding: 15px;
+    width: 70%;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+ul li:hover {
+    background: #262626;
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #1f1f1f;
+    border-top: 2px solid #bb86fc;
+    font-size: 14px;
+    color: #888;
+}
