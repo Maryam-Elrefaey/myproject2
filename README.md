@@ -16,9 +16,3 @@ The project demonstrates the use of **Django Template Language (DTL)** with vari
 - **Django**  
 - **HTML (DTL)**  
 - **CSS (Dark Theme)**  
-
-## 🚀 How to Run
-1. Clone this repository:  
-   ```bash
-   git clone https://github.com/your-username/myproject2.git
-   cd myproject2
